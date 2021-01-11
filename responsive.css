@@ -1,0 +1,125 @@
+/* タブレット */
+@media all and (max-width: 1024px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .text-contents {
+    display: block;
+  }
+
+  .modal {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    background-color: #e6ecf0;
+    border-radius: 10px;
+    width: auto;
+    height: 0 auto;
+    text-align: center;
+  }
+
+  .main {
+    width: 100%
+  }
+
+  .main-image {
+    width: 100%
+    max-width: 100%
+    height: auto;
+  }
+
+}
+
+/* スマホM・Lサイズ */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .header-right {
+    display: none;
+    height: auto;
+    width: auto;
+  }
+
+  .header-right a {
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  .fa.menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+  .text-contents {
+    display: block;
+  }
+
+  .modal {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    background-color: #e6ecf0;
+    border-radius: 10px;
+    width: auto;
+    height: 0 auto;
+    text-align: center;
+  }
+
+  .main {
+    width: 100%
+  }
+
+  .main-image {
+    width: 100%
+    max-width: 100%
+    height: auto;
+  }
+
+}
+
+/* スマホSサイズ 縦画面 */
+@media all and (max-width: 385px) {
+  .logo {
+    width: 50%;
+    margin-top: 20px;
+    flex: auto;
+  }
+
+  header {
+    flex: auto;
+  }
+}
