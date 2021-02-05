@@ -1,36 +1,3 @@
-$(function() {
-
-// const HandleClickSignup() = () => {
-
-// // 	document.addEventListener('click', e => {
-// // 			if (e.target.matches('.signup')) {
-// // 				document.querySelector('signup-modal-wrapper').fadeIn();
-// // 			} else if (e.target.matches('#js-signup')) {
-// // 				document.querySelector('signup-modal-wrapper').fadeIn();
-// // 			}
-// // 		});
-// // 	}
-
-// 	// const HandleClickLogin() = () => {
-// 		document.addEventListener('click', e => {
-// 			if (e.target.matches('#js-login-show')) {
-// 				console.log('hi');
-// 				document.querySelector('.login-modal-wrapper').fadeIn();
-// 			}
-// 		});
-// 	// }
-
-// 	// const HandleClickCloseModalSignup() = () => {
-// 	// 	if (e.target.matches('')) {
-// 	// 		document.querySelector('').fadeOut();
-// 	// }
-
-// 	// const HandleClickCloseModalLogin() = () => {
-// 	// 	if (e.target.matches('')) {
-// 	// 		document.querySelector('').fadeOut();
-// 	// }
-// $('.lesson').addClass('lesson-hover');
-
 // レッスン hoverイベント
 $('.lesson').hover(
 	function() {$(this).find('.text-contents').addClass('active');},
@@ -94,4 +61,3 @@ $('#menuBtn').click(function() {
 	}
 });
 
-}());
